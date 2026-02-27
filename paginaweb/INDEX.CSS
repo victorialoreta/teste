@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(42, 148, 148);
+    color:aqua;
+    text-align: center;
+    font-size: 150%;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img{
+    border-radius: 50px;
+    border: 5px solid rgb(0, 255, 255);
+    box-shadow: 0px 0px 20px rgb(0, 255, 255);
+    width: 1000px;
+    height: auto;
+
+}
+
+.video {
+    width: 350px;
+    height:350px;
+    position: absolute;
+    bottom: 5%;
+    left:40%;
+    filter: contrast(60%);
+}
+
+.video:hover {
+    filter:opacity(0%);
+}
+
+.videototal {
+    filter: opacity(0%);
+    width:350px;
+    height: 350px;
+    position: absolute;
+    bottom: 5%;
+    left:40%;
+
+}
+
+.videototal:hover {
+    filter: opacity(100%)
+}
